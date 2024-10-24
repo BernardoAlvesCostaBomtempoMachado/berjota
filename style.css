@@ -1,0 +1,31 @@
+body{
+    background-color: coral;
+}
+
+header{
+    background-color: rgb(88, 72, 72);
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 10px;
+}
+
+.cartao__conteudo{
+    padding: 20px; 
+    border: 1px solid rgb(75, 117, 233);
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgb(172, 16, 207);
+    transition: transform 0.2s;
+    background-color: rgb(57, 255, 63);
+    margin: 20px 10px;
+}
+
+.cartao__conteudo:hover{
+    transform: scale(1.005);
+}
+
+.cartao__conteudo__resposta{
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: hotpink;
+}
